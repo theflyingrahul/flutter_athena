@@ -1,0 +1,26 @@
+
+//            final CollectionReference users =
+//                Firestore.instance.collection('users');
+//            Firestore.instance.runTransaction((Transaction transaction) async {
+//              CollectionReference reference =
+//                  Firestore.instance.collection('users');
+//
+//              await reference.add({"name": "hi"});
+//            });
+
+
+Future<void> getUserData() async {
+    await db
+        .collection('users')
+        .document('$userKey')
+        .get()
+        .then((documentSnapshot) {
+      if (documentSnapshot.exists) {
+        setState(() {
+          _name = documentSnapshot.data['name'];
+          _dept = documentSnapshot.data['dept'];
+          _batch = documentSnapshot.data['batch'];
+        });
+      }
+    });
+  }

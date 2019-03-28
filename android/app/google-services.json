@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "217023216810",
+    "firebase_url": "https://athena-licet.firebaseio.com",
+    "project_id": "athena-licet",
+    "storage_bucket": "athena-licet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217023216810:android:d39177a3d1b86d92",
+        "android_client_info": {
+          "package_name": "com.athena.flutter_athena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217023216810-2g76akvad1ippkm8jidn1mn89n8k9nmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC98fLsRRkwiZ2FW2XsFUyV9qBGk0C_tRA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
